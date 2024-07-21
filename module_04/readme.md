@@ -1,4 +1,4 @@
-# 04 - Working with Primitive Data Types
+# Module 04 - Working with Primitive Data Types
 
 ```bash
 ├── 01 - Introduction
