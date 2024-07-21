@@ -1,8 +1,13 @@
 package main
 
 func main() {
-	// for (optional_initialization; condition; increment/decrement/augmentation)
-	for i := 0; i < 5; i++ {
+	var i int
+	for i < 5 {
+		i++
 		println(i)
+		if i == 3 {
+			continue
+		}
+		println("continue...")
 	}
 }
