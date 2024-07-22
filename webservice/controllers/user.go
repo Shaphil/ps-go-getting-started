@@ -53,7 +53,7 @@ func (uc userController) ServeHTTP(writer http.ResponseWriter, request *http.Req
 	}
 }
 
-func (uc *userController) getAll(w http.ResponseWriter, r *http.Request) {
+func (uc *userController) getAll(w http.ResponseWriter, _ *http.Request) {
 	encodeResponseAsJson(models.GetUsers(), w)
 }
 
